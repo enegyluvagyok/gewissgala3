@@ -12,13 +12,57 @@
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
-
+   
     .title-fight {
-        background-color: #171717 !important;
-        color: white !important;
-        border-color:#0056b3;
-        border: solid 1px;
-    }
+    background: linear-gradient(135deg, #0f1a1f, #19292f, #223740) !important; /* Sötét, elegáns átmenet */
+    color: white  !important; /* Sötét szöveg a kontrasztért */
+    border-radius: 6px;
+    padding: 20px;
+    margin: 14px 0;
+    font-weight: 500;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 2px 0px 8px #000;
+}
+
+.title-fight:hover {
+    transform: scale(1.03) rotate(1deg); /* Enyhe forgatás hover-re */
+    box-shadow: #000;
+}
+
+.felnott {
+    background-color: #2e2e2e !important; /* Sötétebb, visszafogott háttér */
+    color: #e6e6e6 !important; /* Világos szöveg */
+    border-left: 5px solid #c0974a; /* Vastagabb, modern bal oldali kiemelés */
+    padding: 18px;
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease, border-left-color 0.3s ease;
+}
+
+.felnott:hover {
+    background-color: #393939 !important;
+    border-left-color: #d4a65d;
+}
+
+.gyerek {
+    background-color: #212121 !important; /* Sötét, mély háttér */
+    color: #cccccc !important;
+    border-bottom: 4px rgba(192, 151, 74, 0.7); /* Modern, pontozott alsó keret */
+    padding: 16px;
+    margin: 8px 0;
+    font-weight: 400;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.gyerek:hover {
+    background-color: #2a2a2a !important;
+    border-bottom-color: rgba(192, 151, 74, 1);
+}
 
     .avatar {
         width: 100%;
@@ -85,7 +129,7 @@
                                     $i--
                                 @endphp
                                 <div class="panel panel-default">
-                                    <div class="@if($fight->title_fight == 1) title-fight @endif">
+                                    <div class="@if($fight->title_fight == 1) title-fight @endif @if($fight->agegroup == 'Felnőtt' && $fight->title_fight == 0) felnott @endif @if($fight->agegroup == 'Gyerek') gyerek @endif" >
                                         <div class="row">
                                             <div class="col-md-3">
                                                 <a data-toggle="collapse" data-parent="#fightsAccordion" href="#collapse{{$fight->id}}">

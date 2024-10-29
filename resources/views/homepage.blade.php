@@ -46,7 +46,8 @@
             <div class="section-title" data-animation="fadeInUp">
                 <h2 class="title">Streaming</h2>
             </div>
-            <iframe src="https://medialive.hu/gewiss/" style="width: 100%; min-height: 720px; border: none;" scrolling="no" allowfullscreen></iframe>
+            <iframe src="https://medialive.hu/gewiss/" style="width: 100%; min-height: 720px; border: none;"
+                scrolling="no" allowfullscreen></iframe>
         </div>
     </div>
 </div>
@@ -75,9 +76,19 @@
                         </div>
                         <ul class="options">
                             <li>
-                                TÁMOGATÓI JEGY - Karzat lounge 22.990.-/fő összesen 137.940.- / 6 fő
+                                TÁMOGATÓI JEGY<br>
+                                Karzat lounge 22.990.-/fő<br>
+                                Összesen 137.940.- / 6 fő<br>
                                 (emeleten két oldalt a nézőtérre rálátó galéria rész)
-                                (ZÓNA 4 - bal 3 egység kék, ZÓNA 5 - jobb oldal 3 egység kék)
+                                <br>
+                                A jegy tartalmazza: egységenként maximum 6 fő fogadására alkalmas lounge, bárszék és
+                                bárasztal a korlátnál, kanapé a két mérkőzés közötti lazításhoz.
+                                <br>
+                                Welcome drink (soft v. pezsgő) könyöklő asztalra 1 üveg pezsgő, víz és sós/édes
+                                bekészítés.
+                                <br>
+                                Emeleti kávézó részen elkülönített svédasztalos catering, alkoholmentes és alkoholos
+                                italok.
                             </li>
                         </ul>
                     </div>
@@ -98,9 +109,16 @@
                         </div>
                         <ul class="options">
                             <li>
-                                TÁMOGATÓI JEGY Sky Lounge 22.990,-/fő ZÓNA 6, fekete (az emeleti kávézó
-                                területe, az üvegfal mögött)
-                                (itt idén: 14 év alatti gyerekek ingyen jöhetnek a családdal)
+                                TÁMOGATÓI JEGY<br>
+                                Sky Lounge 22.990,-/fő<br>
+                                (az emeleti kávézó területe, az üvegfal mögött)<br>
+                                (itt idén: 14 év alatti gyerekek ingyen jöhetnek a családdal)<br>
+                                A jegy tartalmazza: Welcome drink (soft v. pezsgő) asztalra 1 üveg pezsgő, víz és
+                                sós/édes bekészítés.<br>
+                                Emeleti kávézó részen elkülönített svédasztalos catering, alkoholmentes és alkoholos
+                                italok, minden fő 1 ingyen
+                                edzés a Gewiss Training SE-nél Zilai Sándorral, regisztrációhoz kötött, 3 hónapig
+                                felhasználható.
                             </li>
                         </ul>
                     </div>
@@ -187,7 +205,7 @@
                         <div class="price-box">
                             <!-- Price -->
                             <div class="starting">ára</div>
-                            <div class="price">8000Ft
+                            <div class="price">8000 Ft
                                 <span>/fő</span>
                             </div>
                         </div>
@@ -218,9 +236,16 @@
                         </div>
                         <ul class="options">
                             <li>
-                                TÁMOGATÓI JEGY - Küzdőtéri 10 fős asztal (ZÓNA 3, zöld) 22.990.- /fő
-                                A jegy tartalmazza: A ringgel egy szinten elhelyezett asztalok, szinte
-                                testközelből élvezheti a mérkőzéseket. 10 fős asztaltársaság számára.
+                                TÁMOGATÓI JEGY <br>
+                                Küzdőtéri 10 fős asztal <br>
+                                22.990.- /fő <br>
+                                A jegy tartalmazza: A ringgel egy szinten elhelyezett asztalok, szinte testközelből
+                                élvezheti a mérkőzéseket. <br>
+                                10 fős asztaltársaság számára. <br>
+                                Welcome drink (soft v. pezsgő) asztalra 1 üveg pezsgő, ásványvíz és sós/édes bekészítés.
+                                <br>
+                                Emeleti kávézó részen elkülönített svédasztalos catering, alkoholmentes és alkoholos
+                                italok.
                             </li>
                         </ul>
                     </div>
@@ -233,7 +258,7 @@
                             <div class="ribbon yellow">ELFOGYOTT</div>
                         </div>
                         <div class="title">
-                            <a href="#">All excess superhero - kiegészítő jegy</a>
+                            <a href="#">All Access Superhero - kiegészítő jegy</a>
                         </div>
                         <div class="price-box">
                             <!-- Price -->
@@ -244,8 +269,11 @@
                         </div>
                         <ul class="options">
                             <li>
-                                A verseny plusz 1 órán keresztül catering hozzáférés, fénykép a kedvenc
-                                versenyzőmmel
+                                KIEGÉSZÍTŐ TÁMOGATÓI JEGY<br>
+                                Azok számára, akik Küzdőtér asztalt, Karzat Lounge vagy Sky Lounge jegyet vásároltak.<br>
+                                Figyelem: a beléptetésnél csak a fenti jegyek birtokában érvényes!<br>
+                                Az alapjegyekben foglalt szolgáltatásokon felül ez a jegy tartalmaz a verseny után plusz 1 órán keresztül catering hozzáférést, fényképet a kedvenc versenyzővel<br>
+                                MÉG KAPHATÓ!
                             </li>
                         </ul>
                     </div>
@@ -299,7 +327,8 @@
                         </div>
                         <div class="description">
                             <!-- Name -->
-                            <h4 class="name text-color"><a href="{{route('fighters.show', $fighter->id)}}">{{ $fighter->name }}</a> - <span
+                            <h4 class="name text-color"><a
+                                    href="{{route('fighters.show', $fighter->id)}}">{{ $fighter->name }}</a> - <span
                                     style="color: #c0974a">{{ \Carbon\Carbon::parse($fighter->date_of_birth)->age }}</span>
                                 <br>
                                 <img width="25px"

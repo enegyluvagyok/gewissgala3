@@ -15,7 +15,7 @@
                 <li class="filter" data-filter=".nok">Nők</li>
                 <li class="filter" data-filter=".ferfiak">Férfiak</li>
                 <li class="filter" data-filter=".k1">K1</li>
-                <li class="filter" data-filter=".thaibox">Thai Box</li>
+                <li class="filter" data-filter=".kickbox">Kick-box</li>
                 <li class="filter" data-filter=".muaythai">Muay Thai</li>
                 <li class="filter" data-filter=".gyerek">Gyerek</li>
                 <li class="filter" data-filter=".felnott">Felnőtt</li>
@@ -28,7 +28,7 @@
             <div class="col-sm-4 col-md-3 icons-hover-color bottom-xs-pad-20 mix all
             @if($fighter->gender == '1') nok @else ferfiak @endif
             @if($fighter->fighting_style == 'K1') k1 @endif
-            @if($fighter->fighting_style == 'Thai Box') thaibox @endif
+            @if($fighter->fighting_style == 'Kick-box') kickbox @endif
             @if($fighter->fighting_style == 'Muay Thai') muaythai @endif
             @if($fighter->agegroup == 'Gyerek') gyerek @endif
             @if($fighter->agegroup == 'Felnőtt') felnott @endif
