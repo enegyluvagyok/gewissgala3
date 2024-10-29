@@ -46,10 +46,7 @@
             <div class="section-title" data-animation="fadeInUp">
                 <h2 class="title">Streaming</h2>
             </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/xVdSDfzWRIY?si=hUP2BTxlIgB1GXpl"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe src="https://medialive.hu/gewiss/" style="width: 100%; min-height: 720px; border: none;" scrolling="no" allowfullscreen></iframe>
         </div>
     </div>
 </div>
