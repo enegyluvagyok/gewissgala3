@@ -1,0 +1,38 @@
+{
+    "backpack": {
+        "crud": {
+            "add": "Hozzáadás",
+            "edit": "Szerkesztés",
+            "delete": "Törlés",
+            "save": "Mentés",
+            "cancel": "Mégse",
+            "list": "Lista",
+            "details": "Részletek",
+            "search": "Keresés",
+            "no_results": "Nincs találat",
+            "confirmation": {
+                "delete": "Biztos benne, hogy törölni szeretné ezt az elemet?",
+                "save": "Biztos benne, hogy menteni szeretné a változtatásokat?"
+            }
+        },
+        "fields": {
+            "name": "Név",
+            "description": "Leírás",
+            "email": "E-mail",
+            "password": "Jelszó",
+            "created_at": "Létrehozva",
+            "updated_at": "Frissítve"
+        },
+        "messages": {
+            "success": "Sikeresen mentve!",
+            "error": "Hiba történt. Kérjük, próbálja újra."
+        },
+        "login": {
+            "title": "Bejelentkezés",
+            "email": "E-mail cím",
+            "password": "Jelszó",
+            "remember_me": "Emlékezz rám",
+            "forgot_password": "Elfelejtette a jelszavát?"
+        }
+    }
+}
