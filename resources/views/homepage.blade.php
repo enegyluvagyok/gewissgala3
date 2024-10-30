@@ -471,7 +471,7 @@
     </div>
 </div>
 
-<style>
+<!--style>
     .image {
         display: flex;
         align-items: center;
@@ -606,5 +606,5 @@
         z-index: 10;
         /* Bring to front on hover */
     }
-</style>
+</style-->
 @endsection
