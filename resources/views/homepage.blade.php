@@ -24,14 +24,14 @@
                                     class="btn btn-default animation animated-item-3 white">
                                     <b><i class="fa fa-ticket white"></i> Jegyértékesítés itt!</b>
                                 </a>
-                                <a href="{{url('/streaming')}}"
-                                    style="color: white; background-color: #0f1a1f; border-color: #c0974a; border-radius: 5px; padding: 10px; font-size: 20px;"
-                                    class="btn btn-default animation animated-item-3 white">
-                                    <b><i class="fa fa-eye white"></i> Live Stream itt!</b>
-                                </a>
                             </div>
-                            <div class="col-md-5 col-sm-5">
+                            <div class="col-md-5 text-center col-sm-5">
                                 <img src="{{ asset('img/logo.png') }}" alt="" title="" />
+                                <a class="live-now" href="https://sportstream.hu/?page_id=806" target="_blank"
+                                    style="color: white; background-color: #FF0000; border-color: #c0974a; border-radius: 5px; padding: 10px; font-size: 20px;"
+                                    class="btn btn-default animation animated-item-3 white">
+                                    <b><i class="fa fa-eye white"></i> Live Stream itt! &nbsp;</b>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -39,18 +39,6 @@
             </div>
         </div>
 </section>
-<!-- works -->
-<div id="streaming" style="background-color:#0a1215; color: white;" class="get-a-quote black text-center">
-    <div class="container">
-        <div class="row" data-animation="pulse">
-            <div class="section-title" data-animation="fadeInUp">
-                <h2 class="title">Streaming</h2>
-            </div>
-            <iframe src="https://medialive.hu/gewiss/" style="width: 100%; min-height: 720px; border: none;"
-                scrolling="no" allowfullscreen></iframe>
-        </div>
-    </div>
-</div>
 <section id="pricing" class="page-section">
     <div class="container">
         <div class="section-title" data-animation="fadeInUp">
@@ -381,230 +369,158 @@
             </div>
         </div>
         <div class="row" style="padding: 10px;">
-            <div class="col-sm-1 icons-hover-color bottom-xs-pad-20"></div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-1">
-                <div class="image">
-                    <img src="{{asset('img/logos/bam.png')}}" alt="" title="" />
+            <div class="owl-carousel navigation-1 light-switch white" data-pagination="false" data-items="5"
+                data-autoplay="true" data-navigation="true" data-animation="fadeInUp">
+                <div class="col-sm-2 text-center icons-hover-color bottom-xs-pad-20 level-1">
+                    <div class="image">
+                        <img src="{{asset('img/logos/bam.png')}}" alt="" title="" />
+                    </div>
+                    <div>
+                        <p><small style="font-size: 65%;">Főtámogató</small></p>
+                    </div>
+                </div>
+                <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-2">
+                    <div class="image">
+                        <img src="{{asset('img/logos/outsys.png')}}" alt="" title="" />
+                    </div>
+                    <p><small style="font-size: 55%;">Kiemelt támogató</small></p>
+                </div>
+                <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-2">
+                    <div class="image">
+                        <img src="{{asset('img/logos/tranzit.png')}}" alt="" title="" />
+                    </div>
+                    <p><small style="font-size: 55%;">Kiemelt támogató</small></p>
+                </div>
+                <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
+                    <div class="image">
+                        <img src="{{asset('img/logos/gewiss.png')}}" alt="" title="" />
+                    </div>
+                    <p><small style="font-size: 55%;">Kiemelt támogató</small></p>
+                </div>
+                <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-3">
+                    <div class="image">
+                        <img src="{{asset('img/logos/dezso.png')}}" alt="" title="" />
+                    </div>
+                    <p><small style="font-size: 45%;">Arany támogató</small></p>
+                </div>
+                <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-3">
+                    <div class="image">
+                        <img src="{{asset('img/logos/garden.png')}}" alt="" title="" />
+                    </div>
+                    <p><small style="font-size: 45%;">Arany támogató</small></p>
+                </div>
+                <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-4">
+                    <div class="image">
+                        <img src="{{asset('img/logos/vizangyal.png')}}" alt="" title="" />
+                        <p><small style="font-size: 45%;">Arany támogató</small></p>
+                    </div>
+                </div>
+                <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-4">
+                    <div class="image">
+                        <img src="{{asset('img/logos/ave.png')}}" alt="" title="" />
+                        <p><small style="font-size: 45%;">Arany támogató</small></p>
+                    </div>
+                </div>
+                <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
+                    <div class="image">
+                        <img src="{{asset('img/logos/panyolai.png')}}" alt="" title="" />
+                        <p><small style="font-size: 45%;">Arany támogató</small></p>
+                    </div>
+                </div>
+                <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
+                    <div class="image">
+                        <img src="{{asset('img/logos/leona.png')}}" alt="" title="" />
+                    </div>
+                    <p><small style="font-size: 45%;">Arany támogató</small></p>
+                </div>
+                <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
+                    <div class="image">
+                        <img src="{{asset('img/logos/krekk.png')}}" alt="" title="" />
+                    </div>
+                    <p><small style="font-size: 40%;">Ezüst támogató</small></p>
+                </div>
+                <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
+                    <div class="image">
+                        <img src="{{asset('img/logos/gerda.png')}}" alt="" title="" />
+                    </div>
+                    <p><small style="font-size: 40%;">Ezüst támogató</small></p>
+                </div>
+                <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
+                    <div class="image">
+                        <img src="{{asset('img/logos/grande.png')}}" alt="" title="" />
+                    </div>
+                    <p><small style="font-size: 40%;">Ezüst támogató</small></p>
+                </div>
+                <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
+                    <div class="image">
+                        <img src="{{asset('img/logos/vintage.png')}}" alt="" title="" />
+                    </div>
+                    <p><small style="font-size: 40%;">Ezüst támogató</small></p>
+                </div>
+                <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
+                    <div class="image">
+                        <img src="{{asset('img/logos/tbutor.png')}}" alt="" title="" />
+                    </div>
+                    <p><small style="font-size: 35%;">Bronz támogató</small></p>
                 </div>
             </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-2">
-                <div class="image">
-                    <img src="{{asset('img/logos/outsys.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-2">
-                <div class="image">
-                    <img src="{{asset('img/logos/tranzit.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-3">
-                <div class="image">
-                    <img src="{{asset('img/logos/dezso.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-3">
-                <div class="image">
-                    <img src="{{asset('img/logos/garden.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-1 icons-hover-color bottom-xs-pad-20"></div>
         </div>
-        <div class="row" style="padding: 10px;">
-            <div class="col-sm-1 icons-hover-color bottom-xs-pad-20"></div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-4">
-                <div class="image">
-                    <img src="{{asset('img/logos/vizangyal.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-4">
-                <div class="image">
-                    <img src="{{asset('img/logos/ave.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
-                <div class="image">
-                    <img src="{{asset('img/logos/gewiss.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
-                <div class="image">
-                    <img src="{{asset('img/logos/krekk.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
-                <div class="image">
-                    <img src="{{asset('img/logos/gerda.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-1 icons-hover-color bottom-xs-pad-20"></div>
-        </div>
-        <div class="row" style="padding: 10px;">
-            <div class="col-sm-1 icons-hover-color bottom-xs-pad-20"></div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
-                <div class="image">
-                    <img src="{{asset('img/logos/vintage.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
-                <div class="image">
-                    <img src="{{asset('img/logos/tbutor.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
-                <div class="image">
-                    <img src="{{asset('img/logos/leona.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
-                <div class="image">
-                    <img src="{{asset('img/logos/panyolai.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
-                <div class="image">
-                    <img src="{{asset('img/logos/grande.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-1 icons-hover-color bottom-xs-pad-20"></div>
-        </div>
-
     </div>
 </div>
 
-<!--style>
-    .image {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
-        /* Smooth transitions with longer duration */
-        border-radius: 5px;
-        /* Rounded corners for a modern look */
-        padding: 2px;
-        margin: 0px;
-        /* Decreased padding for better spacing */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        /* Subtle shadow for depth */
-        border: 2px solid transparent;
-        /* Transparent border for hover effect */
+<style>
+    .live-now {
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        /* White text */
+        background-color: #FF0000;
+        /* YouTube Red background */
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        outline: none;
+        box-shadow: 0 0 0px rgba(255, 0, 0, 0.5);
         position: relative;
-        /* Required for z-index to work */
+        overflow: hidden;
+        animation: glow 1.5s ease-in-out infinite, pulse 1.5s ease-in-out infinite;
     }
 
-    /* Level 1 - Diamond */
-    .level-1 {
-        background: linear-gradient(145deg, #00bcd4, #009688);
-        /* Diamond colors */
-        border: 2px solid #ffffff;
-        /* White border */
-        z-index: 5;
-        /* Highest stacking order */
+    .live-now::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        opacity: 0;
+        animation: pulse-bg 1.5s ease-in-out infinite;
     }
 
-    .level-1:hover {
-        background: linear-gradient(145deg, #009688, #00796b);
-        /* Darker blue on hover */
-        transform: scale(1.4) rotate(5deg);
-        transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
-        /* Increased scale */
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        /* Deeper shadow on hover */
-        border: 2px solid #e7e7e7;
-        /* Light border on hover */
-        z-index: 10;
-        /* Bring to front on hover */
+    @keyframes glow {
+
+        0%,
+        100% {
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+        }
+
+        50% {
+            box-shadow: 0 0 25px rgba(255, 0, 0, 5);
+        }
     }
 
-    /* Level 2 - Platinum */
-    .level-2 {
-        background: linear-gradient(145deg, #b0e0f0, #87cefa);
-        /* Platinum colors */
-        border: 2px solid #0f1a1f;
-        /* Dark teal border */
-        z-index: 4;
-        /* Second highest stacking order */
-    }
 
-    .level-2:hover {
-        background: linear-gradient(145deg, #00bcd4, #009688);
-        /* Diamond gradient on hover */
-        transform: scale(1.3) rotate(-5deg);
-        transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
-        /* Increased scale */
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        border: 2px solid #ffffff;
-        /* White border on hover */
-        z-index: 10;
-        /* Bring to front on hover */
-    }
+    @keyframes pulse-bg {
 
-    /* Level 3 - Gold */
-    .level-3 {
-        background: linear-gradient(145deg, #ffdf00, #ffc107);
-        /* Gold colors */
-        border: 2px solid #c0974a;
-        /* Gold border */
-        z-index: 3;
-        /* Lower stacking order */
-    }
+        0%,
+        100% {
+            opacity: 0;
+        }
 
-    .level-3:hover {
-        background: linear-gradient(145deg, #f9c849, #f5b62c);
-        /* Brighter gold on hover */
-        transform: scale(1.2) rotate(5deg);
-        transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
-        /* Increased scale */
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        border: 2px solid #0f1a1f;
-        /* Dark teal border on hover */
-        z-index: 10;
-        /* Bring to front on hover */
+        50% {
+            opacity: 1;
+        }
     }
-
-    /* Level 4 - Silver */
-    .level-4 {
-        background: linear-gradient(145deg, #c0c0c0, #d4d4d4);
-        /* Silver colors */
-        border: 2px solid #0f1a1f;
-        /* Dark teal border */
-        z-index: 2;
-        /* Lower stacking order */
-    }
-
-    .level-4:hover {
-        background: linear-gradient(145deg, #b0b0b0, #a0a0a0);
-        /* Darker silver on hover */
-        transform: scale(1.15) rotate(-5deg);
-        transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
-        /* Increased scale */
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        border: 2px solid #c0974a;
-        /* Gold border on hover */
-        z-index: 10;
-        /* Bring to front on hover */
-    }
-
-    /* Level 5 - Copper */
-    .level-5 {
-        background: linear-gradient(145deg, #b87333, #cd7f32);
-        /* Copper colors */
-        border: 2px solid #0f1a1f;
-        /* Dark teal border */
-        z-index: 1;
-        /* Lowest stacking order */
-    }
-
-    .level-5:hover {
-        background: linear-gradient(145deg, #b75c3e, #c77d54);
-        /* Darker copper on hover */
-        transform: scale(1.1) rotate(-5deg);
-        transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
-        /* Increased scale */
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        border: 2px solid #c0974a;
-        /* Gold border on hover */
-        z-index: 10;
-        /* Bring to front on hover */
-    }
-</style-->
+</style>
 @endsection
