@@ -5,10 +5,10 @@
         <div id="carousel-example-generic1" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="img/sections/bg/background2.jpg" alt="" title="" width="2000" height="1080" />
+                    <img src="img/sections/bg/background2.jpg" alt="" title="" width="100%" height="100%" />
                     <div class="carousel-caption top-30 text-left">
                         <div class="row">
-                            <div class="col-md-7 col-sm-7" id="hero-desktop">
+                            <div class="col-md-7 col-sm-7" style="padding: 30px !important;" id="hero-desktop">
                                 <h1 class="upper animation animated-item-1">
                                     <span style="background-color: #0f1a1f; color: #c0974a;"> &nbsp; III. <span
                                             style="color: white;"> GEWISS </span>
@@ -25,7 +25,7 @@
                                     <b><i class="fa fa-ticket white"></i> Jegyértékesítés itt!</b>
                                 </a>
                             </div>
-                            <div class="col-md-5 text-center col-sm-5">
+                            <div style="padding: 50px;" class="col-md-5 text-center col-sm-5">
                                 <img src="{{ asset('img/logo.png') }}" alt="" title="" />
                                 <a class="live-now" href="https://sportstream.hu/?page_id=806" target="_blank"
                                     style="color: white; background-color: #FF0000; border-color: #c0974a; border-radius: 5px; padding: 10px; font-size: 20px;"
@@ -307,7 +307,7 @@
         </div>
         <div class="row">
             <div class="owl-carousel navigation-1 light-switch white" data-pagination="false" data-items="4"
-                data-autoplay="true" data-navigation="true" data-animation="fadeInUp">
+                data-autoplay="true"  data-navigation="true" data-animation="fadeInUp">
                 @foreach ($fighters as $fighter)
                     <div class="col-sm-4 col-md-3 icons-hover-color bottom-xs-pad-20">
                         <div class="image">
@@ -369,7 +369,7 @@
             </div>
         </div>
         <div class="row" style="padding: 10px;">
-            <div class="owl-carousel navigation-1 light-switch white" data-pagination="false" data-items="5"
+            <div class="owl-carousel navigation-1 light-switch white" style="autoplayTimeout: 1000 !important" data-pagination="false" data-items="5"
                 data-autoplay="true" data-navigation="true" data-animation="fadeInUp">
                 <div class="col-sm-2 text-center icons-hover-color bottom-xs-pad-20 level-1">
                     <div class="image">

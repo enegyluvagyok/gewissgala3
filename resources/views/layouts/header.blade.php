@@ -150,7 +150,8 @@
                                         <!-- nav -->
                                         <ul class="nav navbar-nav">
                                             <li>
-                                                <a href="{{ url('/streaming') }}">Streaming</a>
+                                                <a href="https://sportstream.hu/?page_id=806"
+                                                    target="_blank">Streaming</a>
                                             </li>
                                             <li class="mega-menu">
                                                 <a href="{{ url('/#pricing') }}">Jegyek</a>
@@ -168,8 +169,7 @@
                                                 <a href="{{ url('/gewisstraining') }}">Gewiss Training SE</a>
                                             </li>
                                             <li>
-                                                <a
-                                                    href="{{ url('https://gewissguard.com/hu/kezdolap/', ['target' => '_blank']) }}">Gewiss
+                                                <a href="https://gewissguard.com/hu/kezdolap" target="_blank">Gewiss
                                                     GUARD</a>
                                             </li>
                                         </ul>
