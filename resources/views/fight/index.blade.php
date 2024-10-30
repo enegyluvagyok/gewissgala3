@@ -138,7 +138,7 @@
                                             </div>
                                             <div class="col-md-3">
                                                 <p><h5 style="margin-bottom: 0px;"><strong>{{$i}}. mérkőzés</h5></p>
-                                                <p><strong><span class="text-color">Kezdés: </span></strong>{{$fight->date}}</span></p>
+                                                <p><strong><span class="text-color">Kezdés: </span></strong>{{date('H:i', strtotime($fight->date))}}</span></p>
                                                 <p><strong><span class="text-color">Időtartam:
                                                         </span></strong>{{$fight->duration}}</span></p>
                                                 <p><strong><span class="text-color">Szabályrendszer:
