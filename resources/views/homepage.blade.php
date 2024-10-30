@@ -382,28 +382,28 @@
         </div>
         <div class="row" style="padding: 10px;">
             <div class="col-sm-1 icons-hover-color bottom-xs-pad-20"></div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20">
-                <div class="image level-1">
+            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-1">
+                <div class="image">
                     <img src="{{asset('img/logos/bam.png')}}" alt="" title="" />
                 </div>
             </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20">
-                <div class="image level-2">
-                    <img src="{{asset('img/logos/tranzit.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20">
-                <div class="image level-2">
+            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-2">
+                <div class="image">
                     <img src="{{asset('img/logos/outsys.png')}}" alt="" title="" />
                 </div>
             </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20">
-                <div class="image level-3">
-                    <img src="{{asset('img/logos/gewiss.png')}}" alt="" title="" />
+            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-2">
+                <div class="image">
+                    <img src="{{asset('img/logos/tranzit.png')}}" alt="" title="" />
                 </div>
             </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20">
-                <div class="image level-3">
+            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-3">
+                <div class="image">
+                    <img src="{{asset('img/logos/dezso.png')}}" alt="" title="" />
+                </div>
+            </div>
+            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-3">
+                <div class="image">
                     <img src="{{asset('img/logos/garden.png')}}" alt="" title="" />
                 </div>
             </div>
@@ -411,62 +411,63 @@
         </div>
         <div class="row" style="padding: 10px;">
             <div class="col-sm-1 icons-hover-color bottom-xs-pad-20"></div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20">
-                <div class="image level-3">
-                    <img src="{{asset('img/logos/dezso.png')}}" alt="" title="" />
+            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-4">
+                <div class="image">
+                    <img src="{{asset('img/logos/vizangyal.png')}}" alt="" title="" />
                 </div>
             </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20">
-                <div class="image level-4">
+            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-4">
+                <div class="image">
+                    <img src="{{asset('img/logos/ave.png')}}" alt="" title="" />
+                </div>
+            </div>
+            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
+                <div class="image">
+                    <img src="{{asset('img/logos/gewiss.png')}}" alt="" title="" />
+                </div>
+            </div>
+            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
+                <div class="image">
                     <img src="{{asset('img/logos/krekk.png')}}" alt="" title="" />
                 </div>
             </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20">
-                <div class="image level-4">
-                    <img src="{{asset('img/logos/vintage.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20">
-                <div class="image level-4">
-                    <img src="{{asset('img/logos/tbutor.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20">
-                <div class="image level-4">
-                    <img src="{{asset('img/logos/ave.png')}}" alt="" title="" />
+            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
+                <div class="image">
+                    <img src="{{asset('img/logos/gerda.png')}}" alt="" title="" />
                 </div>
             </div>
             <div class="col-sm-1 icons-hover-color bottom-xs-pad-20"></div>
         </div>
         <div class="row" style="padding: 10px;">
             <div class="col-sm-1 icons-hover-color bottom-xs-pad-20"></div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20">
-                <div class="image level-4">
-                    <img src="{{asset('img/logos/vizangyal.png')}}" alt="" title="" />
+            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
+                <div class="image">
+                    <img src="{{asset('img/logos/vintage.png')}}" alt="" title="" />
                 </div>
             </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20">
-                <div class="image level-4">
+            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
+                <div class="image">
+                    <img src="{{asset('img/logos/tbutor.png')}}" alt="" title="" />
+                </div>
+            </div>
+            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
+                <div class="image">
                     <img src="{{asset('img/logos/leona.png')}}" alt="" title="" />
                 </div>
             </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20">
-                <div class="image level-4">
+            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
+                <div class="image">
                     <img src="{{asset('img/logos/panyolai.png')}}" alt="" title="" />
                 </div>
             </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20">
-                <div class="image level-4">
+            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20 level-5">
+                <div class="image">
                     <img src="{{asset('img/logos/grande.png')}}" alt="" title="" />
-                </div>
-            </div>
-            <div class="col-sm-2 icons-hover-color bottom-xs-pad-20">
-                <div class="image level-4">
-                    <img src="{{asset('img/logos/gerda.png')}}" alt="" title="" />
                 </div>
             </div>
             <div class="col-sm-1 icons-hover-color bottom-xs-pad-20"></div>
         </div>
+
     </div>
 </div>
 
@@ -475,11 +476,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s, border 0.3s;
-        /* Smooth transitions */
-        border-radius: 10px;
+        transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
+        /* Smooth transitions with longer duration */
+        border-radius: 5px;
         /* Rounded corners for a modern look */
-        padding: 10px;
+        padding: 5px;
         /* Decreased padding for better spacing */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         /* Subtle shadow for depth */
@@ -491,82 +492,113 @@
 
     /* Level 1 - Diamond */
     .level-1 {
-        background: linear-gradient(145deg, #c0974a, #a0753b);
-        /* Brighter diamond-like gradient */
-        border: 2px solid #e7e7e7;
-        /* Light border */
-        z-index: 4;
+        background: linear-gradient(145deg, #00bcd4, #009688);
+        /* Diamond colors */
+        border: 2px solid #ffffff;
+        /* White border */
+        z-index: 5;
         /* Highest stacking order */
     }
 
     .level-1:hover {
-        background: linear-gradient(145deg, #0f1a1f, #1a2428);
-        /* Dark teal gradient on hover */
+        background: linear-gradient(145deg, #009688, #00796b);
+        /* Darker blue on hover */
         transform: scale(1.4) rotate(5deg);
-        /* Slightly enlarge and rotate */
+        transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
+        /* Increased scale */
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         /* Deeper shadow on hover */
-        border: 2px solid #c0974a;
-        /* Gold border on hover */
-        z-index: 10;
-        /* Bring to front on hover */
-    }
-
-    /* Level 2 - Platinum */
-    .level-2 {
-        background: linear-gradient(145deg, #e7e7e7, #d4d4d4);
-        /* Brighter platinum gradient with more color */
-        border: 2px solid #c0974a;
-        /* Dark teal border */
-        z-index: 3;
-        /* Second highest stacking order */
-    }
-
-    .level-2:hover {
-        background: linear-gradient(145deg, #c0974a, #a0753b);
-        /* Gold gradient on hover */
-        transform: scale(1.3) rotate(-5deg);
-        /* Slightly enlarge and rotate */
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         border: 2px solid #e7e7e7;
         /* Light border on hover */
         z-index: 10;
         /* Bring to front on hover */
     }
 
+    /* Level 2 - Platinum */
+    .level-2 {
+        background: linear-gradient(145deg, #b0e0f0, #87cefa);
+        /* Platinum colors */
+        border: 2px solid #0f1a1f;
+        /* Dark teal border */
+        z-index: 4;
+        /* Second highest stacking order */
+    }
+
+    .level-2:hover {
+        background: linear-gradient(145deg, #00bcd4, #009688);
+        /* Diamond gradient on hover */
+        transform: scale(1.3) rotate(-5deg);
+        transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
+        /* Increased scale */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        border: 2px solid #ffffff;
+        /* White border on hover */
+        z-index: 10;
+        /* Bring to front on hover */
+    }
+
     /* Level 3 - Gold */
     .level-3 {
-        background: linear-gradient(145deg, bronze, emerald);
-        /* Gold gradient */
+        background: linear-gradient(145deg, #ffdf00, #ffc107);
+        /* Gold colors */
         border: 2px solid #c0974a;
         /* Gold border */
-        z-index: 2;
+        z-index: 3;
         /* Lower stacking order */
     }
 
     .level-3:hover {
-        background: linear-gradient(145deg, #e7e7e7, #d4d4d4);
-        /* Light gray gradient on hover */
+        background: linear-gradient(145deg, #f9c849, #f5b62c);
+        /* Brighter gold on hover */
         transform: scale(1.2) rotate(5deg);
-        /* Slightly enlarge and rotate */
-        box-shadow: 0 8px 1
+        transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
+        /* Increased scale */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        border: 2px solid #0f1a1f;
+        /* Dark teal border on hover */
+        z-index: 10;
+        /* Bring to front on hover */
     }
 
     /* Level 4 - Silver */
     .level-4 {
-        background: transparent;
-        /* Silver gradient */
-        border: 0px solid #0f1a1f;
+        background: linear-gradient(145deg, #c0c0c0, #d4d4d4);
+        /* Silver colors */
+        border: 2px solid #0f1a1f;
+        /* Dark teal border */
+        z-index: 2;
+        /* Lower stacking order */
+    }
+
+    .level-4:hover {
+        background: linear-gradient(145deg, #b0b0b0, #a0a0a0);
+        /* Darker silver on hover */
+        transform: scale(1.15) rotate(-5deg);
+        transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
+        /* Increased scale */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        border: 2px solid #c0974a;
+        /* Gold border on hover */
+        z-index: 10;
+        /* Bring to front on hover */
+    }
+
+    /* Level 5 - Copper */
+    .level-5 {
+        background: linear-gradient(145deg, #b87333, #cd7f32);
+        /* Copper colors */
+        border: 2px solid #0f1a1f;
         /* Dark teal border */
         z-index: 1;
         /* Lowest stacking order */
     }
 
-    .level-4:hover {
-        background: linear-gradient(145deg, #0f1a1f, #1a2428);
-        /* Dark teal gradient on hover */
+    .level-5:hover {
+        background: linear-gradient(145deg, #b75c3e, #c77d54);
+        /* Darker copper on hover */
         transform: scale(1.1) rotate(-5deg);
-        /* Slightly enlarge and rotate */
+        transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
+        /* Increased scale */
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         border: 2px solid #c0974a;
         /* Gold border on hover */
