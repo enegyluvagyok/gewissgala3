@@ -480,7 +480,8 @@
         /* Smooth transitions with longer duration */
         border-radius: 5px;
         /* Rounded corners for a modern look */
-        padding: 5px;
+        padding: 2px;
+        margin: 0px;
         /* Decreased padding for better spacing */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         /* Subtle shadow for depth */
