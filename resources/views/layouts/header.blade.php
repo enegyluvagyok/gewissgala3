@@ -164,6 +164,9 @@
                                             <li class="mega-menu">
                                                 <a href="{{ url('/fight_cards') }}">Fight Card</a>
                                             </li>
+                                            <li class="mega-menu">
+                                                <a href="{{ url('/gewisstraining') }}">Gewiss Training SE</a>
+                                            </li>
                                             <li>
                                                 <a
                                                     href="{{ url('https://gewissguard.com/hu/kezdolap/', ['target' => '_blank']) }}">Gewiss
