@@ -81,7 +81,7 @@
     </div>
 </section>
 <!-- works -->
-<section id="related-post" class="page-section">
+<section id="related-post" class="page-section" style="display: none;">
     <div class="image-bg content-in fixed" data-background="{{asset('img/sections/bg/background.jpg')}}">
         <div class="overlay-strips"></div>
     </div>
