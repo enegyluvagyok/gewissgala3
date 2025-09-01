@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 b9fc0e97df13d0c4cf92f4c5c1795b147c84495a Seres Zoltán <seres.zoltan@kdiv.hu> 1730189730 +0100	commit (initial): first commit
+b9fc0e97df13d0c4cf92f4c5c1795b147c84495a b9fc0e97df13d0c4cf92f4c5c1795b147c84495a Seres Zoltán <seres.zoltan@kdiv.hu> 1730189741 +0100	Branch: renamed refs/heads/master to refs/heads/main
+b9fc0e97df13d0c4cf92f4c5c1795b147c84495a b0498d787449075d123cc24d2c7df1ccedec6006 Seres Zoltán <seres.zoltan@kdiv.hu> 1730189843 +0100	commit: =test
+b0498d787449075d123cc24d2c7df1ccedec6006 350023748f1859f41660002e3afc998ac1e6002e Seres Zoltán <seres.zoltan@kdiv.hu> 1730195172 +0100	commit: =data
+350023748f1859f41660002e3afc998ac1e6002e 103e6daa930d69858aec4531d023a06fd9b51aff Seres Zoltán <seres.zoltan@kdiv.hu> 1730221859 +0100	commit: streaming
+103e6daa930d69858aec4531d023a06fd9b51aff 36024af08ffe9ec26f3a14f08b403a06b6602b76 Seres Zoltán <seres.zoltan@kdiv.hu> 1730224164 +0100	commit: =resize
