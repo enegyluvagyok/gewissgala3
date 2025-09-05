@@ -3,43 +3,44 @@
 
 <style>
     /* Swiper fix */
-.schedule-board.swiper {
-  width: 100%;
-  padding: 20px 0;
-}
-.schedule-day {
-  background: rgba(15,26,31,0.85);
-  border: 2px solid #c0974a;
-  border-radius: 12px;
-  padding: 16px;
-  min-height: 280px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
+    .schedule-board.swiper {
+        width: 100%;
+        padding: 20px 0;
+    }
 
-.schedule-header {
-  font-weight: bold;
-  font-size: 1.2rem;
-  margin-bottom: 12px;
-  color: #c0974a;
-  text-align: center;
-}
+    .schedule-day {
+        background: rgba(15, 26, 31, 0.85);
+        border: 2px solid #c0974a;
+        border-radius: 12px;
+        padding: 16px;
+        min-height: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 
-.schedule-cell {
-  margin-bottom: 10px;
-}
+    .schedule-header {
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 12px;
+        color: #c0974a;
+        text-align: center;
+    }
 
-.schedule-cell .time {
-  font-size: .9rem;
-  font-weight: 600;
-  color: #e7e7e7;
-}
+    .schedule-cell {
+        margin-bottom: 10px;
+    }
 
-.schedule-cell .label {
-  font-size: .95rem;
-  color: #e7e7e7;
-}
+    .schedule-cell .time {
+        font-size: .9rem;
+        font-weight: 600;
+        color: #e7e7e7;
+    }
+
+    .schedule-cell .label {
+        font-size: .95rem;
+        color: #e7e7e7;
+    }
 
 </style>
 
@@ -48,12 +49,12 @@
     <div class="container">
         <div class="row align-items-center">
             <!-- Kép helye -->
-            <div class="col-md-6 text-center">
+            <div class="col-md-5 text-center">
                 <img src="{{ asset('img/sections/grid/team.jpg') }}" alt="Edzőterem" class="img-fluid" style="aspect-ratio: 16/9; border-radius: 10px;" /> <br> <br>
-                <img src="{{ asset('img/sections/grid/team2.jpg') }}" alt="Edzőterem" class="img-fluid" style="aspect-ratio: 16/9; border-radius: 10px;" />
+                <img src="{{ asset('img/sections/grid/team2.jpg') }}" alt="Edzőterem" class="img-fluid" style="aspect-ratio: 16/9; border-radius: 10px;" /><br> <br>
+                <img src="{{ asset('img/sections/grid/team3.jpg') }}" alt="Edzőterem" class="img-fluid" style="aspect-ratio: 16/9; border-radius: 10px;" />
             </div>
-            <!-- Szöveg -->
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <div class="section-title" data-animation="fadeInUp">
                     <h2 class="title">Rólunk</h2>
                 </div>
@@ -145,11 +146,14 @@
         </div>
         <br>
         <div>
-            <p class="text-muted text-center">Az első edzésre hozz magaddal egy rövidnadrágot
-                és pólót! Ha úgy döntesz, járnál rendszeresen,
+            <p class="text text-center">Az első edzésre hozz magaddal egy rövidnadrágot
+                és pólót!
+            </p>
+            <p class="text text-center">Ha úgy döntesz, járnál rendszeresen,
                 hamar be kell szerezned egy
                 10 vagy 12-es méretű kesztyűt,
-                fogvédőt és bandázst (fiúknak 4,5 méterest, lányoknak 3,5 méterest). </p>
+                fogvédőt és bandázst (fiúknak 4,5 méterest, lányoknak 3,5 méterest).
+            </p>
         </div>
 </section>
 <section id="contact" class="page-section contact-section">

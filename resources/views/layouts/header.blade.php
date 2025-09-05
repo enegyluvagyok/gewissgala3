@@ -49,6 +49,10 @@
             cursor: pointer;
         }
 
+        .container {
+            max-width: 100% !important;
+        }
+
         .modal {
             display: none;
             position: fixed;
@@ -436,22 +440,22 @@
         #hero-mobile h1 span {
             color: #c0974a;
             border-radius: 6px;
-            font-size: 3rem;
-            line-height: 1.2;
+            font-size: 4rem;
+            line-height: 1;
         }
 
         #hero-desktop h2,
         #hero-mobile h2 {
-            font-size: 1.6rem;
+            font-size: 2.3rem;
             font-weight: 600;
-            margin: 15px 0;
+            margin: 0px;
         }
 
         #hero-desktop b,
         #hero-mobile b {
-            font-size: 1rem;
+            font-size: 1.5rem;
             font-weight: 400;
-            margin-top: 10px;
+            margin-top: 5px;
             color: #e7e7e7;
             letter-spacing: .02em;
             display: block;
@@ -465,12 +469,16 @@
 
             #hero-mobile h2 {
                 font-size: 1.1rem;
-                margin: 8px 0;
+                margin: 0px 0;
             }
 
             #hero-mobile b {
                 font-size: .85rem;
                 line-height: 1.4;
+            }
+
+            .navbar-collapse {
+                min-height: 550px !important;
             }
         }
 
@@ -503,7 +511,7 @@
         <div id="pageloader">
             <div class="loader-item fa fa-spin text-color"></div>
         </div>
-        <div id="top-bar" style="padding: 5px;" class="top-bar-section top-bar-bg-color">
+        <div id="top-bar" style="padding: 0px;" class="top-bar-section top-bar-bg-color">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -625,7 +633,11 @@
                 <div id="carousel-example-generic1" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
+                            @if(str_contains(request()->path(), 'gala'))
+                            <img src="img/sections/bg/background3.jpg" alt="" title="" width="100%" height="100%" />
+                            @else
                             <img src="img/sections/bg/background2.jpg" alt="" title="" width="100%" height="100%" />
+                            @endif
                             <div class="carousel-caption top-30 text-left">
                                 <div class="row">
                                     <div id="hero-desktop" class="col-md-6 col-sm-6">
@@ -633,7 +645,13 @@
                                             <span>Gewiss Training SE</span>
                                         </h1>
                                         <h2 class="upper animation animated-item-2">
-                                            Muay thai &amp; Boxing
+                                            Muay thai &amp; Boxing -
+                                            <a href="https://www.instagram.com/gewisstraining/">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                            <a href="https://www.facebook.com/profile.php?id=61566811710352">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
                                         </h2>
                                         <b>Founded by Sandor Zilai. Elevating fighters, shaping champions</b>
                                     </div>
@@ -644,9 +662,15 @@
                                             <span>Gewiss Training SE</span>
                                         </h1>
                                         <h2 class="upper animation animated-item-2">
-                                            Muay thai &amp; Boxing
+                                            Muay thai &amp; Boxing - 
+                                            <a href="https://www.instagram.com/gewisstraining/">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                            <a href="https://www.facebook.com/profile.php?id=61566811710352">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
                                         </h2>
-                                        <b>Founded by Sandor Zilai.<br>Elevating fighters, shaping champions</b>
+                                        <b>Founded by Sandor Zilai.<br>Elevating fighters, <br> shaping champions</b>
                                     </div>
                                 </div>
                             </div>
