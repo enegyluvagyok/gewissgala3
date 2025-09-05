@@ -173,7 +173,7 @@
                     </p>
                     <p class="mb-2">
                         <i class="fa fa-envelope"></i>
-                        <a href="mailto:gewisstraining2017@gmail.com">gewisstraining2017@gmail.com</a>
+                        <a href="mailto:gewisstraining@gmail.com">gewisstraining@gmail.com</a>
                     </p>
                     <p class="mb-0">
                         <i class="fa fa-map-marker"></i>

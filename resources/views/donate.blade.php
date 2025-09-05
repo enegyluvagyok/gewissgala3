@@ -47,7 +47,7 @@
     </div>
 
     <div class="cta-wrap">
-      <a href="mailto:gewisstraining2017@gmail.com" class="btn-ghost">gewisstraining2017@gmail.com</a>
+      <a href="mailto:gewisstraining@gmail.com" class="btn-ghost">gewisstraining@gmail.com</a>
     </div>
   </div>
 </section>

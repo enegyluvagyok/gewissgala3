@@ -519,8 +519,8 @@
                         <div class="top-contact link-hover-black">
                             <a href="tel:+36707038827">
                                 <i class="fa fa-phone"></i>+36707038827</a>
-                            <a href="mailto:gewisstraining2017@gmail.com">
-                                <i class="fa fa-envelope"></i>gewisstraining2017@gmail.com</a>
+                            <a href="mailto:gewisstraining@gmail.com">
+                                <i class="fa fa-envelope"></i>gewisstraining@gmail.com</a>
                         </div>
                         <!-- Top Social Icon -->
                         <div class="top-social-icon icons-hover-black">
@@ -621,7 +621,7 @@
                 <button class="popup__close js-close-popup" aria-label="Bezárás">&times;</button>
                 <h3 id="popup-basic-title" class="popup__title">Szponzoráció</h3>
                 <div class="popup__content">
-                    <p>Írj nekünk: <a href="mailto:info@gewisstraining.hu">info@gewisstraining.hu</a></p>
+                    <p>Írj nekünk: <a href="mailto:gewisstraining@gmail.com">gewisstraining@gmail.com</a></p>
                     <p>Telefon: <a href="tel:+36301234567">+36 30 123 4567</a></p>
                     <p>Letölthető csomag: <a href="{{ asset('docs/szponzor-csomag.pdf') }}" target="_blank">PDF</a></p>
                 </div>
@@ -645,15 +645,17 @@
                                             <span>Gewiss Training SE</span>
                                         </h1>
                                         <h2 class="upper animation animated-item-2">
-                                            Muay thai &amp; Boxing -
+                                            Muay thai &amp; Boxing
+                                        </h2>
+                                        <b>Founded by Sandor Zilai. Elevating fighters, shaping champions</b>
+                                        <h3>
                                             <a href="https://www.instagram.com/gewisstraining/">
                                                 <i class="fa fa-instagram"></i>
                                             </a>
                                             <a href="https://www.facebook.com/profile.php?id=61566811710352">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
-                                        </h2>
-                                        <b>Founded by Sandor Zilai. Elevating fighters, shaping champions</b>
+                                        </h3>
                                     </div>
 
                                     <!-- MOBILE -->
@@ -662,7 +664,7 @@
                                             <span>Gewiss Training SE</span>
                                         </h1>
                                         <h2 class="upper animation animated-item-2">
-                                            Muay thai &amp; Boxing - 
+                                            Muay thai &amp; Boxing -
                                             <a href="https://www.instagram.com/gewisstraining/">
                                                 <i class="fa fa-instagram"></i>
                                             </a>
@@ -671,6 +673,14 @@
                                             </a>
                                         </h2>
                                         <b>Founded by Sandor Zilai.<br>Elevating fighters, <br> shaping champions</b>
+                                        <h3>
+                                            <a href="https://www.instagram.com/gewisstraining/">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                            <a href="https://www.facebook.com/profile.php?id=61566811710352">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </h3>
                                     </div>
                                 </div>
                             </div>

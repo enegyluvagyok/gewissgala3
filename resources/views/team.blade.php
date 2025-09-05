@@ -29,18 +29,18 @@
             <p class="team-role">Boksz szakosztály vezetője, boksz edző</p>
         </article>
 
-        <!-- 4 -->
-        <article class="team-card">
-            <img class="team-avatar" src="/img/team/orosz-gyula.jpg" alt="Orosz Gyula" onerror="this.onerror=null;this.src='https://i.pravatar.cc/240?u=orosz-gyula';">
-            <h3 class="team-name">Orosz Gyula</h3>
-            <p class="team-role">Utánpótlás edző</p>
-        </article>
-
         <!-- 5 -->
         <article class="team-card">
             <img class="team-avatar" src="/img/team/kertesz-sandor.jpg" alt="Kertész Sándor" onerror="this.onerror=null;this.src='https://i.pravatar.cc/240?u=kertesz-sandor';">
             <h3 class="team-name">Kertész Sándor</h3>
             <p class="team-role">Muay thai edző</p>
+        </article>
+
+         <!-- 4 -->
+        <article class="team-card">
+            <img class="team-avatar" src="/img/team/orosz-gyula.jpg" alt="Orosz Gyula" onerror="this.onerror=null;this.src='https://i.pravatar.cc/240?u=orosz-gyula';">
+            <h3 class="team-name">Orosz Gyula</h3>
+            <p class="team-role">Utánpótlás edző</p>
         </article>
 
         <!-- 6 -->
@@ -68,9 +68,9 @@
 <div class="container my-5">
     <div class="cta-box text-center">
         <h3 class="mb-3">Részletekért keress minket!</h3>
-        <p class="mb-4">E-mail: <a href="mailto:gewisstraining2017@gmail.com">gewisstraining2017@gmail.com</a> &middot; Tel.: <a href="tel:+36707038827">+36 70 703 8827</a></p>
+        <p class="mb-4">E-mail: <a href="mailto:gewisstraining@gmail.com">gewisstraining@gmail.com</a> &middot; Tel.: <a href="tel:+36707038827">+36 70 703 8827</a></p>
         <div class="d-flex justify-content-center gap-2 flex-wrap">
-            <a class="btn btn-gt-primary" href="mailto:gewisstraining2017@gmail.com" aria-label="E-mail küldése a Gewiss Trainingnek">Írj e-mailt</a>
+            <a class="btn btn-gt-primary" href="mailto:gewisstraining@gmail.com" aria-label="E-mail küldése a Gewiss Trainingnek">Írj e-mailt</a>
             <a class="btn btn-gt-outline" href="tel:+36707038827" aria-label="Telefonhívás indítása a Gewiss Training felé">Hívj most</a>
         </div>
     </div>
